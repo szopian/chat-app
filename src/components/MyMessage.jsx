@@ -1,5 +1,5 @@
-const MessageFrom = () => {
-  return <div>MessageForm</div>;
+const MyMessage = () => {
+  return <div>MyMessage</div>;
 };
 
-export default MessageFrom;
+export default MyMessage;
