@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { sendMessage, isTyping } from "react-chat-engine";
 import { SendOutlined, PictureOutlined } from "@ant-design/icons";
+import { sendMessage, isTyping } from "react-chat-engine";
 
-const MessageFrom = (props) => {
+const MessageForm = (props) => {
   const [value, setValue] = useState("");
   const { chatId, creds } = props;
 
@@ -56,4 +56,4 @@ const MessageFrom = (props) => {
   );
 };
 
-export default MessageFrom;
+export default MessageForm;
